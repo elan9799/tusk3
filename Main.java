@@ -97,7 +97,7 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             g = g + array[i];
         }
-        g = g / (array.length - 1);
+        g = g / (array.length);
         System.out.println("среднее значение элементов в массиве = " + g);
     }
 }
